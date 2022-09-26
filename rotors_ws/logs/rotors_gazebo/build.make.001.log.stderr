@@ -1,0 +1,36 @@
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:8:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+    8 | void imageCallback(const [01;31m[Ksensor_msgs[m[K::ImageConstPtr& msg)
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:8:52:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+    8 | void imageCallback(const sensor_msgs::ImageConstPtr[01;31m[K&[m[K msg)
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:8:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+    8 | void imageCallback[34m[K([m[Kconst sensor_msgs::ImageConstPtr[01;31m[K&[m[K msg)
+      |                   [34m[K~[m[K                                [01;31m[K^[m[K
+      |                                                    [32m[K)[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:8:54:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+    8 | void imageCallback(const sensor_msgs::ImageConstPtr& [01;31m[Kmsg[m[K)
+      |                                                      [01;31m[K^~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   40 |   [01;31m[Kros[m[K::init(argc, argv, "webcam_pub_cpp");
+      |   [01;31m[K^~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:43:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   43 |   [01;31m[Kros[m[K::NodeHandle nh;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport[m[K’ has not been declared
+   46 |   [01;31m[Kimage_transport[m[K::ImageTransport it(nh);
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport[m[K’ has not been declared
+   49 |   [01;31m[Kimage_transport[m[K::Subscriber sub = it.subscribe("/firefly/camera_nadir/image_raw", 10, imageCallback);
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:52:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   52 |   [01;31m[Kros[m[K::spin();
+      |   [01;31m[K^~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:55:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ has not been declared
+   55 |   [01;31m[Kcv[m[K::destroyWindow("view");
+      |   [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/webcam_pub.dir/build.make:76: CMakeFiles/webcam_pub.dir/src/webcam_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1517: CMakeFiles/webcam_pub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:146: all] Error 2

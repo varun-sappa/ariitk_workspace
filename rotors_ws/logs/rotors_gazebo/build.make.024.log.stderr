@@ -1,0 +1,42 @@
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:[m[K In function ‘[01m[Kvoid imageCallback(const ImageConstPtr&)[m[K’:
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv2[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv[m[K’?
+   46 |     if ([01;31m[Kcv2[m[K.waitKey(1) & 0xFF == ord('q')){
+      |         [01;31m[K^~~[m[K
+      |         [32m[Kcv[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:46:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kord[m[K’ was not declared in this scope
+   46 |     if (cv2.waitKey(1) & 0xFF == [01;31m[Kord[m[K('q')){
+      |                                  [01;31m[K^~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:54:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcatch[m[K’
+   54 |   [01;31m[Kcatch[m[K (cv_bridge::Exception& e)
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:60:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[Kmain[m[K’
+   60 | int [01;31m[Kmain[m[K(int argc, char **argv)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:60:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kmain[m[K’
+   60 | int [01;31m[Km[m[K[32m[Kain[m[K(int argc, char **argv)
+      |     [01;31m[K^[m[K[32m[K~~~[m[K
+      |     [32m[K([m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:60:5:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[Kmain[m[K’
+   60 | int [01;31m[Kmain[m[K(int argc, char **argv)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:60:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+   60 | int [34m[Kmain[m[K(int argc, char **argv)
+      |     [34m[K~~~~[m[K                       [01;31m[K^[m[K
+      |                                [32m[K)[m[K
+   61 | [32m[K{[m[K
+      | [32m[K~[m[K                               
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:63:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+   63 |   ros::init([01;31m[Kargc[m[K, argv, "webcam_pub");
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:63:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+   63 |   ros::init(argc, [01;31m[Kargv[m[K, "webcam_pub");
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:78:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   78 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:13:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   13 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/webcam_pub.dir/build.make:76: CMakeFiles/webcam_pub.dir/src/webcam_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1519: CMakeFiles/webcam_pub.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

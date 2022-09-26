@@ -1,0 +1,15 @@
+/usr/bin/ld: CMakeFiles/roi.dir/src/roi.cpp.o: in function `main':
+roi.cpp:(.text+0x6c): undefined reference to `cv::imread(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/usr/bin/ld: roi.cpp:(.text+0xc0): undefined reference to `cv::selectROI(cv::_InputArray const&, bool, bool)'
+/usr/bin/ld: roi.cpp:(.text+0x179): undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'
+/usr/bin/ld: roi.cpp:(.text+0x1b0): undefined reference to `cv::waitKey(int)'
+/usr/bin/ld: CMakeFiles/roi.dir/src/roi.cpp.o: in function `cv::Mat::~Mat()':
+roi.cpp:(.text._ZN2cv3MatD2Ev[_ZN2cv3MatD5Ev]+0x3d): undefined reference to `cv::fastFree(void*)'
+/usr/bin/ld: CMakeFiles/roi.dir/src/roi.cpp.o: in function `cv::Mat::release()':
+roi.cpp:(.text._ZN2cv3Mat7releaseEv[_ZN2cv3Mat7releaseEv]+0x4f): undefined reference to `cv::Mat::deallocate()'
+/usr/bin/ld: CMakeFiles/roi.dir/src/roi.cpp.o: in function `cv::Mat::operator()(cv::Rect_<int> const&) const':
+roi.cpp:(.text._ZNK2cv3MatclERKNS_5Rect_IiEE[_ZNK2cv3MatclERKNS_5Rect_IiEE]+0x2b): undefined reference to `cv::Mat::Mat(cv::Mat const&, cv::Rect_<int> const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/roi.dir/build.make:97: /home/varun/rotors_ws/devel/.private/rotors_gazebo/lib/rotors_gazebo/roi] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1545: CMakeFiles/roi.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

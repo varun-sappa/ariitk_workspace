@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/varun/rotors_ws/devel/.private/mav_system_msgs/setup.sh
