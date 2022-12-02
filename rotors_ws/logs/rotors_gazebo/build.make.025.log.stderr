@@ -1,7 +1,0 @@
-[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:[m[K In function ‘[01m[Kvoid imageCallback(const ImageConstPtr&)[m[K’:
-[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:46:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kord[m[K’ was not declared in this scope
-   46 |     if (cv::waitKey(1) & 0xFF == [01;31m[Kord[m[K('q')){
-      |                                  [01;31m[K^~~[m[K
-make[2]: *** [CMakeFiles/webcam_pub.dir/build.make:76: CMakeFiles/webcam_pub.dir/src/webcam_pub.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:1519: CMakeFiles/webcam_pub.dir/all] Error 2
-make: *** [Makefile:146: all] Error 2

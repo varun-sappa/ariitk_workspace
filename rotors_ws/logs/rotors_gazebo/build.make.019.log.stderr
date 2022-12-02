@@ -1,6 +1,0 @@
-[01m[K/home/varun/rotors_ws/src/rotors_simulator/rotors_gazebo/src/webcam_pub.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kroi_image[m[K’ in namespace ‘[01m[Kcv[m[K’ does not name a type
-   10 | cv::[01;31m[Kroi_image[m[K;
-      |     [01;31m[K^~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/webcam_pub.dir/build.make:76: CMakeFiles/webcam_pub.dir/src/webcam_pub.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:1519: CMakeFiles/webcam_pub.dir/all] Error 2
-make: *** [Makefile:146: all] Error 2

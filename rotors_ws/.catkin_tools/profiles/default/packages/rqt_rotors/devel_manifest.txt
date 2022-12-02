@@ -1,8 +1,0 @@
-rotors_simulator/rqt_rotors
-/home/varun/rotors_ws/devel/.private/rqt_rotors/cmake.lock /home/varun/rotors_ws/devel/./cmake.lock
-/home/varun/rotors_ws/devel/.private/rqt_rotors/lib/pkgconfig/rqt_rotors.pc /home/varun/rotors_ws/devel/lib/pkgconfig/rqt_rotors.pc
-/home/varun/rotors_ws/devel/.private/rqt_rotors/lib/python3/dist-packages/rqt_rotors/__init__.py /home/varun/rotors_ws/devel/lib/python3/dist-packages/rqt_rotors/__init__.py
-/home/varun/rotors_ws/devel/.private/rqt_rotors/share/rqt_rotors/cmake/rqt_rotorsConfig.cmake /home/varun/rotors_ws/devel/share/rqt_rotors/cmake/rqt_rotorsConfig.cmake
-/home/varun/rotors_ws/devel/.private/rqt_rotors/share/rqt_rotors/cmake/rqt_rotorsConfig-version.cmake /home/varun/rotors_ws/devel/share/rqt_rotors/cmake/rqt_rotorsConfig-version.cmake
-/home/varun/rotors_ws/devel/.private/rqt_rotors/bin/hil_plugin /home/varun/rotors_ws/devel/bin/hil_plugin
-/home/varun/rotors_ws/devel/.private/rqt_rotors/bin/cmake.lock /home/varun/rotors_ws/devel/bin/cmake.lock
