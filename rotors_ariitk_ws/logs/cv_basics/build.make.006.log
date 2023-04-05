@@ -1,0 +1,5 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/webcam_sub_cpp.dir/src/webcam_sub_cpp.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target webcam_pub_cpp[0m
+[ 75%] Built target webcam_pub_cpp
+[100%] [32m[1mLinking CXX executable /home/varun/rotors_ariitk_ws/devel/.private/cv_basics/lib/cv_basics/webcam_sub_cpp[0m
+[100%] Built target webcam_sub_cpp

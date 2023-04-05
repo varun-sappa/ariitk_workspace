@@ -1,0 +1,8 @@
+prefix=/home/varun/rotors_ariitk_ws/devel/.private/rrbot_control
+
+Name: rrbot_control
+Description: Description of rrbot_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

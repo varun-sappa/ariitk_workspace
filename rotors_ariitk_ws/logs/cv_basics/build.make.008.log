@@ -1,0 +1,19 @@
+[ 50%] Built target webcam_sub_cpp
+[ 75%] [32mBuilding CXX object CMakeFiles/webcam_pub_cpp.dir/src/webcam_pub_cpp.cpp.o[0m
+[01m[K/home/varun/rotors_ariitk_ws/src/cv_basics/src/webcam_pub_cpp.cpp:7:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kbridge[m[K’ does not name a type; did you mean ‘[01m[Kcv_bridge[m[K’?
+    7 | [01;31m[Kbridge[m[K/cv_bridge.h>
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Kcv_bridge[m[K
+[01m[K/home/varun/rotors_ariitk_ws/src/cv_basics/src/webcam_pub_cpp.cpp:59:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   59 | }   [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/varun/rotors_ariitk_ws/src/cv_basics/src/webcam_pub_cpp.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcapture[m[K’ does not name a type; did you mean ‘[01m[KCvCapture[m[K’?
+   62 |     [01;31m[Kcapture[m[K.release();
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[KCvCapture[m[K
+[01m[K/home/varun/rotors_ariitk_ws/src/cv_basics/src/webcam_pub_cpp.cpp:63:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   63 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/webcam_pub_cpp.dir/build.make:76: CMakeFiles/webcam_pub_cpp.dir/src/webcam_pub_cpp.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/webcam_pub_cpp.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

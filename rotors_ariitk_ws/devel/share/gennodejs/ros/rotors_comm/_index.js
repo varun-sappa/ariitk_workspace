@@ -1,0 +1,1 @@
+/home/varun/rotors_ariitk_ws/devel/.private/rotors_comm/share/gennodejs/ros/rotors_comm/_index.js
