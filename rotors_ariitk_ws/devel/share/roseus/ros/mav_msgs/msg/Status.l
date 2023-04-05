@@ -1,1 +1,0 @@
-/home/varun/rotors_ariitk_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/Status.l

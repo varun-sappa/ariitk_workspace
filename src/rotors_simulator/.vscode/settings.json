@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/attached/Aerial_Robotics/rotors_ws/devel/lib/python3/dist-packages",
+        "/attached/Aerial_Robotics/ros_tutorials_ws/devel/lib/python3/dist-packages",
+        "/attached/Aerial_Robotics/initial_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

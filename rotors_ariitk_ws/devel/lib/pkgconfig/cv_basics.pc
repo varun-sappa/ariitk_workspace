@@ -1,1 +1,0 @@
-/home/varun/rotors_ariitk_ws/devel/.private/cv_basics/lib/pkgconfig/cv_basics.pc

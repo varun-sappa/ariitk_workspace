@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/attached/Aerial_Robotics/rotors_ws/devel/include/**",
+        "/attached/Aerial_Robotics/ros_tutorials_ws/devel/include/**",
+        "/attached/Aerial_Robotics/initial_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/attached/Aerial_Robotics/initial_ws/src/beginner_tutorials/include/**",
+        "/attached/Aerial_Robotics/initial_ws/src/husky_pos_vel/include/**",
+        "/attached/Aerial_Robotics/rotors_ws/src/mav_comm/mav_msgs/include/**",
+        "/attached/Aerial_Robotics/rotors_ws/src/mav_comm/mav_planning_msgs/include/**",
+        "/attached/Aerial_Robotics/initial_ws/src/newpkg/include/**",
+        "/attached/Aerial_Robotics/rotors_ws/src/position_control_through_acceleration/include/**",
+        "/attached/Aerial_Robotics/ros_tutorials_ws/src/ros_robotics/include/**",
+        "/attached/Aerial_Robotics/rotors_ws/src/rotors_simulator/rotors_control/include/**",
+        "/attached/Aerial_Robotics/rotors_ws/src/rotors_simulator/rotors_gazebo_plugins/include/**",
+        "/attached/Aerial_Robotics/rotors_ws/src/rotors_simulator/rotors_hil_interface/include/**",
+        "/attached/Aerial_Robotics/rotors_ws/src/rotors_simulator/rotors_joy_interface/include/**",
+        "/attached/Aerial_Robotics/initial_ws/src/template_gui_package/include/**",
+        "/attached/Aerial_Robotics/initial_ws/src/template_package/template_package/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

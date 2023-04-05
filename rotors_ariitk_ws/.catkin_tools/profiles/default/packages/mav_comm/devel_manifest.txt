@@ -1,2 +1,0 @@
-mav_comm/mav_comm
-/home/varun/rotors_ariitk_ws/devel/.private/mav_comm/cmake.lock /home/varun/rotors_ariitk_ws/devel/./cmake.lock

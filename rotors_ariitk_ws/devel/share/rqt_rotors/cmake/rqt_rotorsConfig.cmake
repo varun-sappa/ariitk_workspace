@@ -1,1 +1,0 @@
-/home/varun/rotors_ariitk_ws/devel/.private/rqt_rotors/share/rqt_rotors/cmake/rqt_rotorsConfig.cmake

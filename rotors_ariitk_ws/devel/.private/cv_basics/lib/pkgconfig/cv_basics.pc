@@ -1,8 +1,0 @@
-prefix=/home/varun/rotors_ariitk_ws/devel/.private/cv_basics
-
-Name: cv_basics
-Description: Description of cv_basics
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
