@@ -1,6 +1,6 @@
 
 <launch>
-  <node
+  <!-- <node
     pkg="cv_basics"
     type="webcam_pub_cpp"
     name="webcam_pub_cpp"
@@ -10,6 +10,12 @@
     pkg="cv_basics"
     type="webcam_sub_cpp"
     name="webcam_sub_cpp"
+    output="screen"
+  /> -->
+  <node
+    pkg="cv_basics"
+    type="CircularObjectDetection"
+    name="CircularObjectDetection"
     output="screen"
   />
 </launch> 

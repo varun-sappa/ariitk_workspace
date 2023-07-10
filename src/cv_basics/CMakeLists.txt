@@ -217,3 +217,5 @@ target_link_libraries(webcam_pub_cpp ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 add_executable(webcam_sub_cpp src/webcam_sub_cpp.cpp)
 target_link_libraries(webcam_sub_cpp ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 
+add_executable(CircularObjectDetection src/CircularObjectDetection.cpp)
+target_link_libraries(CircularObjectDetection ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})

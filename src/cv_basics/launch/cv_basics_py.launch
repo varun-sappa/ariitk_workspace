@@ -1,14 +1,32 @@
-<launch>
+  <launch>
   <node
     pkg="cv_basics"
     type="webcam_pub.py"
     name="webcam_pub"
     output="screen"
   />
-  <node
+  <!-- <node
     pkg="cv_basics"
     type="webcam_sub.py"
     name="webcam_sub"
     output="screen"
+  /> -->
+  <node
+    pkg="cv_basics"
+    type="webcam_rub.py"
+    name="webcam_rub"
+    output="screen"
   />
+  <!-- <node
+  pkg="cv_basics"
+  type="webcam_class.py"
+  name="webcam_class"
+  output="screen"
+/> -->
+  <!-- <node
+    pkg="cv_basics"
+    type="detection.py"
+    name="detection"
+    output="screen"
+  /> -->
 </launch>

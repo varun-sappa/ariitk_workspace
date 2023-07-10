@@ -1,0 +1,1 @@
+# write opencv code for  removing contour of an image
